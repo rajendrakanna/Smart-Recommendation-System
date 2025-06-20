@@ -244,7 +244,7 @@ def create_agent(job_title: str, job_description: str) -> Agent:
     """
 
     agent = Agent(
-        model=Gemini(id="gemini-2.0-flash-exp", api_key="your_api_key"),
+        model=Gemini(id="gemini-2.0-flash-exp", api_key="AIzaSyBs9RqqwapIaJfrcEudkpaJxrUccS8rwzo"),
         markdown=True,
         tools=[DuckDuckGoTools()],
         show_tool_calls=False,

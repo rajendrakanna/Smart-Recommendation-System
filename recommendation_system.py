@@ -91,7 +91,7 @@ agent_instructions = f"""
 """
 
 agent = Agent(
-        model=Gemini(id="gemini-2.0-flash-exp", api_key="AIzaSyBs9RqqwapIaJfrcEudkpaJxrUccS8rwzo"),
+        model=Gemini(id="gemini-2.0-flash-exp", api_key="your_api_key"),
         markdown=True,
         tools=[DuckDuckGoTools()],
         show_tool_calls=False,
